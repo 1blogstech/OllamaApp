@@ -1,3 +1,9 @@
 ollama pull llama3.2
 Download Ollama by Below Link
 https://ollama.com/download/OllamaSetup.exe
+
+Create Python Environment by,
+python -m venv .venv
+
+Install Python Packages by,
+pip install ollama flask langchain-ollama
